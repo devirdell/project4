@@ -1,0 +1,159 @@
+
+body {
+    background-color: #F6EEE3;
+    color: black;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: #6E2119;
+    font-size: 2.2em;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    color: #6E2119;
+}
+.home h2 {
+    text-align: center;
+    font-size: 1.6em;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #F6EEE3;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #3B4E54;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.home {
+    max-width: 400px;
+}
+
+.chapter-list {
+    list-style: none;
+    padding: 0;
+}
+
+.chapter-list li {
+    margin: 5px 0;
+}
+
+.chapter-list a {
+    display: block;
+    color: black;
+    padding: 5px;
+    font-size: 1.4em;
+    text-decoration: solid;
+    border-radius: 0px;
+    text-align: left;
+}
+
+.chapter-list a:hover {
+    color: #3B4E54;
+}
+
+.chapter-container {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 18px;
+    display: block; 
+    max-width: 50em;  
+}
+
+.chapter-container img {
+    float: right;
+    margin: 0 0 15px 20px;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-columns {
+    column-count: 1;
+    column-gap: 0;
+}
+
+.float-img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+.float-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1, h2 {
+    font-family: 'Quintessential', cursive;
+}
+
+
+
+
